@@ -58,3 +58,13 @@ Tạo file data.xlsx chưa ví ở cột A, số lượng ở cột B
 
 Chạy script để send batch
 node scripts/sendFromExcel.js
+
+### MỞ RỘNG
+
+Nếu muốn triển khai trên Optimism (OP Mainnet) hoặc Arbitrum (Arb Mainnet)....., chỉ cần thay đổi
+
+1. Đổi RPC_URL trong file .env
+2. Đổi RPC_URL trong sendFromExcel.js
+3. Đổi RPC_URL trong hardhat.config.js
+4. Chạy lại lệnh triển khai hợp đồng
+npx hardhat run scripts/deploy.js --network base
