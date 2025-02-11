@@ -11,6 +11,8 @@ Trước đó cần cài những app sau:
 
 Tạo thư mục MultiSendETH mở CMD lên
 
+git clone https://github.com/voztoy/MultiSendETH.git
+
 Trước tiên, bạn cần cài đặt Node.js và thư viện ethers:
 
 npm init -y
