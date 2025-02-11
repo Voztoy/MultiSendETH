@@ -17,6 +17,16 @@ npm init -y
 npm install hardhat ethers dotenv @nomicfoundation/hardhat-toolbox
 npm install xlsx
 
+Hoặc
+
+npm init -y                # Khởi tạo một dự án Node.js với tệp package.json mặc định
+npm install hardhat        # Cài đặt Hardhat, một công cụ phát triển smart contract
+npm install ethers         # Cài đặt Ethers.js để tương tác với blockchain Ethereum
+npm install dotenv         # Cài đặt dotenv để quản lý biến môi trường
+npm install @nomicfoundation/hardhat-toolbox  # Cài đặt Hardhat Toolbox, bao gồm các công cụ hỗ trợ phát triển
+npm install xlsx           # Cài đặt thư viện xlsx để làm việc với tệp Excel
+
+
 Sau đó, khởi tạo Hardhat:
 
 npx hardhat
